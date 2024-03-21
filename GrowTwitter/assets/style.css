@@ -1,0 +1,39 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #00acee; /* Light gray background */
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff; /* White background for tweets */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tweet {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  border-radius: 12px;
+  box-shadow: 0 10px 11px rgba(0, 0, 0, 0.6);
+}
+
+.tweet .username {
+  font-weight: bold;
+  color: #2c3e50; /* Dark blue text */
+}
+
+.tweet .content {
+  margin-top: 10px;
+  color: #34495e; /* Dark gray text */
+}
+
+.tweet .likes {
+  margin-top: 15px;
+  color: #3498db; /* Blue text */
+  font-size: 0.9em;
+}
